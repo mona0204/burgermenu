@@ -1,0 +1,4 @@
+ function closeMenu() {
+   var burgerMenuX=document.getElementById('burgerMenuX').classList.toggle('closeX');
+}
+

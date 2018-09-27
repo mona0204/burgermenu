@@ -1,0 +1,54 @@
+html,body {
+    height: 100%;
+}
+
+body{
+    text-align: center;
+  
+}
+
+#burgerMenuX{
+    width: 50%;
+    margin: 0 auto;
+    cursor: pointer;
+        
+}
+
+#burgerMenuX span{
+   width: 26px;
+    height: 4px;
+    display: block;
+    background-color: black;
+    margin: 4px 0;
+}
+
+.closeX span:first-child {
+    transform: translate(0px, 8px) rotate(225deg) ;
+    -webkit- transform: translate(0px, 8px) rotate(225deg) ;
+}
+
+.closeX span:nth-child(2){
+    opacity: 0;
+   
+}
+
+.closeX span:last-child{
+    transform: translate(0, -8px) rotate(-225deg);
+   -webkit- transform: translate(0, -8px) rotate(-225deg);
+}
+
+.imgLoader {
+  display: none;
+  opacity: 0 !important;
+}
+
+.pricebox {
+  span {
+    font-size: 30px;
+    color: orange;
+  }
+}
+
+.ui.items .item.active {
+  border: 3px solid red;
+}
